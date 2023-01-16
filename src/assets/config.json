@@ -1,0 +1,11 @@
+{
+  "mock": {
+    "enable": false,
+    "delay": 5000,
+    "inclusivity": true,
+    "endpoints": [
+
+    ]
+  },
+  "suppressLogs": false
+}

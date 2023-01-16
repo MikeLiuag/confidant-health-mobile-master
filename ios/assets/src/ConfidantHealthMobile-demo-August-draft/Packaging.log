@@ -1,0 +1,703 @@
+2019-08-09 10:47:24 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f8047878f30; archive(resolved)='<IDEArchive: 0x7f802e24c060>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f8047878f30; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f803688b1f0; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f806674e150; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7fc1835db0; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7fc1c794b0; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f806afdd510; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f803a51cf70; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f803de54bd0; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f80463de580; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f80978ce3a0; teamID='KTURXC6699', teamName='Stella Technology Incorporated', teamType='Company', username='musman@stellatechnology.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7fc0f519b0; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='(null)'>
+	<IDEDistributionContext: 0x7f8043da7360; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80a62deb50>', team='(null)'>
+	<IDEDistributionContext: 0x7f807ba3cfc0; archive = '<IDEArchive: 0x7f802e24c060>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f8047878f30>
+2019-08-09 10:47:24 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-08-09 10:47:24 +0000  Processing step: IDEDistributionCopyItemStep
+2019-08-09 10:47:24 +0000  Running /usr/bin/ditto '-V' '/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app'
+2019-08-09 10:47:24 +0000  >>> Copying /Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app 
+2019-08-09 10:47:24 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-08-09 10:47:24 +0000  31665 bytes for ./_CodeSignature/CodeResources
+2019-08-09 10:47:24 +0000  copying file ./Octicons.ttf ... 
+2019-08-09 10:47:24 +0000  27440 bytes for ./Octicons.ttf
+copying file ./Feather.ttf ... 
+2019-08-09 10:47:24 +0000  65112 bytes for ./Feather.ttf
+2019-08-09 10:47:24 +0000  copying file ./AppIcon20x20@2x.png ... 
+2019-08-09 10:47:24 +0000  2253 bytes for ./AppIcon20x20@2x.png
+2019-08-09 10:47:24 +0000  copying file ./Entypo.ttf ... 
+2019-08-09 10:47:24 +0000  65584 bytes for ./Entypo.ttf
+copying file ./AppIcon20x20@3x.png ... 
+2019-08-09 10:47:24 +0000  3102 bytes for ./AppIcon20x20@3x.png
+2019-08-09 10:47:24 +0000  copying file ./FontAwesome5_Brands.ttf ... 
+2019-08-09 10:47:24 +0000  134160 bytes for ./FontAwesome5_Brands.ttf
+copying file ./MaterialCommunityIcons.ttf ... 
+2019-08-09 10:47:24 +0000  416816 bytes for ./MaterialCommunityIcons.ttf
+copying file ./ConfidantHealthMobile ... 
+2019-08-09 10:47:24 +0000  114081408 bytes for ./ConfidantHealthMobile
+copying file ./AppIcon60x60@2x.png ... 
+2019-08-09 10:47:24 +0000  6424 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon29x29@2x.png ... 
+2990 bytes for ./AppIcon29x29@2x.png
+copying file ./AntDesign.ttf ... 
+70344 bytes for ./AntDesign.ttf
+copying file ./AppIcon40x40@3x.png ... 
+6424 bytes for ./AppIcon40x40@3x.png
+copying file ./Foundation.ttf ... 
+56976 bytes for ./Foundation.ttf
+copying file ./Ionicons.ttf ... 
+2019-08-09 10:47:24 +0000  112472 bytes for ./Ionicons.ttf
+copying file ./FontAwesome5_Solid.ttf ... 
+2019-08-09 10:47:24 +0000  208792 bytes for ./FontAwesome5_Solid.ttf
+copying file ./AppIcon40x40@2x.png ... 
+2019-08-09 10:47:24 +0000  4203 bytes for ./AppIcon40x40@2x.png
+2019-08-09 10:47:24 +0000  copying file ./FontAwesome5_Regular.ttf ... 
+2019-08-09 10:47:24 +0000  40080 bytes for ./FontAwesome5_Regular.ttf
+copying file ./RobotoRegular.ttf ... 
+2019-08-09 10:47:24 +0000  171676 bytes for ./RobotoRegular.ttf
+2019-08-09 10:47:24 +0000  copying file ./TitilliumWebRegular.ttf ... 
+63728 bytes for ./TitilliumWebRegular.ttf
+copying file ./SFProTextRegular.ttf ... 
+434120 bytes for ./SFProTextRegular.ttf
+copying file ./AppIcon29x29@3x.png ... 
+4595 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+10365 bytes for ./AppIcon60x60@3x.png
+copying file ./Base.lproj/LaunchScreen.nib ... 
+1258 bytes for ./Base.lproj/LaunchScreen.nib
+copying file ./FontAwesome.ttf ... 
+165548 bytes for ./FontAwesome.ttf
+copying file ./TitilliumWebLight.ttf ... 
+64008 bytes for ./TitilliumWebLight.ttf
+copying file ./SFUITextRegular.ttf ... 
+460476 bytes for ./SFUITextRegular.ttf
+copying file ./Zocial.ttf ... 
+25552 bytes for ./Zocial.ttf
+copying file ./Assets.car ... 
+2019-08-09 10:47:24 +0000  769224 bytes for ./Assets.car
+copying file ./EvilIcons.ttf ... 
+13456 bytes for ./EvilIcons.ttf
+copying file ./RobotoBold.ttf ... 
+170760 bytes for ./RobotoBold.ttf
+copying file ./main.jsbundle ... 
+2019-08-09 10:47:24 +0000  3042834 bytes for ./main.jsbundle
+2019-08-09 10:47:24 +0000  copying file ./Roboto-BoldItalic.ttf ... 
+174952 bytes for ./Roboto-BoldItalic.ttf
+copying file ./OpenSansRegular.ttf ... 
+217276 bytes for ./OpenSansRegular.ttf
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2019-08-09 10:47:24 +0000  466576 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2019-08-09 10:47:24 +0000  679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2019-08-09 10:47:24 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2019-08-09 10:47:24 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+2019-08-09 10:47:24 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2019-08-09 10:47:24 +0000  1608800 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2019-08-09 10:47:24 +0000  724416 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2019-08-09 10:47:24 +0000  4056912 bytes for ./Frameworks/libswiftDispatch.dylib
+2019-08-09 10:47:24 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+857184 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2019-08-09 10:47:24 +0000  1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2019-08-09 10:47:24 +0000  486352 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+836048 bytes for ./Frameworks/libswiftCoreAudio.dylib
+copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+2019-08-09 10:47:24 +0000  1652096 bytes for ./Frameworks/libswiftAVFoundation.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-08-09 10:47:24 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2019-08-09 10:47:24 +0000  copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+2019-08-09 10:47:24 +0000  794576 bytes for ./Frameworks/libswiftCoreMedia.dylib
+copying file ./Frameworks/libswiftsimd.dylib ... 
+2019-08-09 10:47:24 +0000  4134176 bytes for ./Frameworks/libswiftsimd.dylib
+2019-08-09 10:47:24 +0000  copying file ./SimpleLineIcons.ttf ... 
+54056 bytes for ./SimpleLineIcons.ttf
+copying file ./embedded.mobileprovision ... 
+20373 bytes for ./embedded.mobileprovision
+copying file ./assets/node_modules/react-native-ratings/src/images/bell.png ... 
+2989 bytes for ./assets/node_modules/react-native-ratings/src/images/bell.png
+copying file ./assets/node_modules/react-native-ratings/src/images/airbnb-star-selected.png ... 
+934 bytes for ./assets/node_modules/react-native-ratings/src/images/airbnb-star-selected.png
+copying file ./assets/node_modules/react-native-ratings/src/images/heart.png ... 
+2019-08-09 10:47:24 +0000  1928 bytes for ./assets/node_modules/react-native-ratings/src/images/heart.png
+2019-08-09 10:47:24 +0000  copying file ./assets/node_modules/react-native-ratings/src/images/airbnb-star.png ... 
+2019-08-09 10:47:24 +0000  930 bytes for ./assets/node_modules/react-native-ratings/src/images/airbnb-star.png
+2019-08-09 10:47:24 +0000  copying file ./assets/node_modules/react-native-ratings/src/images/rocket.png ... 
+2019-08-09 10:47:24 +0000  4050 bytes for ./assets/node_modules/react-native-ratings/src/images/rocket.png
+2019-08-09 10:47:24 +0000  copying file ./assets/node_modules/react-native-ratings/src/images/star.png ... 
+2019-08-09 10:47:24 +0000  1961 bytes for ./assets/node_modules/react-native-ratings/src/images/star.png
+2019-08-09 10:47:24 +0000  copying file ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@3x.png ... 
+2019-08-09 10:47:24 +0000  761 bytes for ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@3x.png
+2019-08-09 10:47:24 +0000  copying file ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@2x.png ... 
+2019-08-09 10:47:24 +0000  405 bytes for ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@2x.png
+2019-08-09 10:47:24 +0000  copying file ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon.png ... 
+2019-08-09 10:47:24 +0000  290 bytes for ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon.png
+copying file ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon-mask.png ... 
+2019-08-09 10:47:24 +0000  1619 bytes for ./assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon-mask.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/some1-white.png ... 
+2019-08-09 10:47:24 +0000  15406 bytes for ./assets/src/assets/images/some1-white.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/check.png ... 
+2019-08-09 10:47:24 +0000  18374 bytes for ./assets/src/assets/images/check.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/forward-arrow.png ... 
+2019-08-09 10:47:24 +0000  14675 bytes for ./assets/src/assets/images/forward-arrow.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/loader1.gif ... 
+2019-08-09 10:47:24 +0000  25010 bytes for ./assets/src/assets/images/loader1.gif
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/vd-mic-selected.png ... 
+2019-08-09 10:47:24 +0000  19120 bytes for ./assets/src/assets/images/vd-mic-selected.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/male.png ... 
+2019-08-09 10:47:24 +0000  15437 bytes for ./assets/src/assets/images/male.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/slider1.png ... 
+2019-08-09 10:47:24 +0000  112021 bytes for ./assets/src/assets/images/slider1.png
+copying file ./assets/src/assets/images/some1.png ... 
+2019-08-09 10:47:24 +0000  773 bytes for ./assets/src/assets/images/some1.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/search-grey.png ... 
+2019-08-09 10:47:24 +0000  507 bytes for ./assets/src/assets/images/search-grey.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/library.png ... 
+2019-08-09 10:47:24 +0000  374 bytes for ./assets/src/assets/images/library.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/back-arrow.png ... 
+2019-08-09 10:47:24 +0000  269 bytes for ./assets/src/assets/images/back-arrow.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/vd-cam-selected.png ... 
+2019-08-09 10:47:24 +0000  3855 bytes for ./assets/src/assets/images/vd-cam-selected.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/information.png ... 
+2019-08-09 10:47:24 +0000  36103 bytes for ./assets/src/assets/images/information.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/vd-mic.png ... 
+17448 bytes for ./assets/src/assets/images/vd-mic.png
+copying file ./assets/src/assets/images/vd-no-cam.png ... 
+2019-08-09 10:47:24 +0000  16114 bytes for ./assets/src/assets/images/vd-no-cam.png
+copying file ./assets/src/assets/images/myself-white.png ... 
+2019-08-09 10:47:24 +0000  603 bytes for ./assets/src/assets/images/myself-white.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/female.png ... 
+2019-08-09 10:47:24 +0000  714 bytes for ./assets/src/assets/images/female.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/other.png ... 
+2019-08-09 10:47:24 +0000  699 bytes for ./assets/src/assets/images/other.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/read.png ... 
+2019-08-09 10:47:24 +0000  571 bytes for ./assets/src/assets/images/read.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/progressReport.png ... 
+2019-08-09 10:47:24 +0000  14383 bytes for ./assets/src/assets/images/progressReport.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/typing.gif ... 
+2019-08-09 10:47:24 +0000  58211 bytes for ./assets/src/assets/images/typing.gif
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/pencil.png ... 
+2019-08-09 10:47:24 +0000  481 bytes for ./assets/src/assets/images/pencil.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/other-white.png ... 
+2019-08-09 10:47:24 +0000  15348 bytes for ./assets/src/assets/images/other-white.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/vd-call-end.png ... 
+2019-08-09 10:47:24 +0000  1103 bytes for ./assets/src/assets/images/vd-call-end.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/Picture.png ... 
+2019-08-09 10:47:24 +0000  136665 bytes for ./assets/src/assets/images/Picture.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/female-white.png ... 
+2019-08-09 10:47:24 +0000  15327 bytes for ./assets/src/assets/images/female-white.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/back-white.png ... 
+2019-08-09 10:47:24 +0000  15058 bytes for ./assets/src/assets/images/back-white.png
+2019-08-09 10:47:24 +0000  copying file ./assets/src/assets/images/accessLearningLib.png ... 
+2019-08-09 10:47:24 +0000  18668 bytes for ./assets/src/assets/images/accessLearningLib.png
+copying file ./assets/src/assets/images/myself.png ... 
+2019-08-09 10:47:24 +0000  15489 bytes for ./assets/src/assets/images/myself.png
+copying file ./assets/src/assets/images/male-white.png ... 
+2019-08-09 10:47:24 +0000  581 bytes for ./assets/src/assets/images/male-white.png
+2019-08-09 10:47:24 +0000  copying file ./Info.plist ... 
+2019-08-09 10:47:24 +0000  2368 bytes for ./Info.plist
+2019-08-09 10:47:24 +0000  copying file ./RobotoItalic.ttf ... 
+2019-08-09 10:47:24 +0000  173932 bytes for ./RobotoItalic.ttf
+2019-08-09 10:47:24 +0000  copying file ./PkgInfo ... 
+2019-08-09 10:47:24 +0000  8 bytes for ./PkgInfo
+2019-08-09 10:47:24 +0000  copying file ./MaterialIcons.ttf ... 
+2019-08-09 10:47:24 +0000  128180 bytes for ./MaterialIcons.ttf
+2019-08-09 10:47:24 +0000  /usr/bin/ditto exited with 0
+2019-08-09 10:47:24 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f808262f0f0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f800a5ad2f0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f804248a800 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7fc1995790:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f808d695860 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f802a04aed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8033114420 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8065f7ccd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f803b3357a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7fc1a15530:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8096ec6f20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f802a80fed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f804ed359c0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f8044e48ed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f804be58d00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8048c87ab0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f80a526d1c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f803800d7a0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f803f29d790 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f803689e830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8088b88f80 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f804ecaafd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f802db95520 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f80284ebdd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f80a4ef5de0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f8037ee11e0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f800d4284c0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f802f0a32c0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f805e70ef30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f80a4cde830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib'>'>
+2019-08-09 10:47:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8080b8bb90 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8020b48160:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib'>'>
+2019-08-09 10:47:24 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-08-09 10:47:24 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-08-09 10:47:24 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-08-09 10:47:24 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-08-09 10:47:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-09 10:47:25 +0000  Processing step: IDEDistributionSymbolsStep
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-09 10:47:25 +0000  Processing step: IDEDistributionAppThinningStep
+2019-08-09 10:47:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-08-09 10:47:25 +0000  Processing step: IDEDistributionArchThinningStep
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftAVFoundation.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftCoreAudio.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftCoreMedia.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib'
+2019-08-09 10:47:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:26 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2019-08-09 10:47:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib'
+2019-08-09 10:47:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:26 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2019-08-09 10:47:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib' '-verify_arch' 'arm64e'
+2019-08-09 10:47:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib' '-remove' 'arm64e' '-output' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib'
+2019-08-09 10:47:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-09 10:47:26 +0000  Successfully thinned item "libswiftsimd.dylib", arch "arm64e"
+2019-08-09 10:47:26 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/ConfidantHealthMobile' '-verify_arch' 'arm64e'
+2019-08-09 10:47:26 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-08-09 10:47:26 +0000  Skipping architecture thinning for item "ConfidantHealthMobile" because arch "arm64e" wasn't found
+2019-08-09 10:47:26 +0000  Processing step: IDEDistributionODRStep
+2019-08-09 10:47:26 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f808262f0f0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f800a5ad2f0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f804248a800 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7fc1995790:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f808d695860 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f802a04aed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8033114420 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8065f7ccd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f803b3357a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7fc1a15530:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8096ec6f20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f802a80fed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f804ed359c0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f8044e48ed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f804be58d00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8048c87ab0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f80a526d1c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f803800d7a0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f803f29d790 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f803689e830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8088b88f80 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f804ecaafd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f802db95520 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f80284ebdd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f80a4ef5de0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f8037ee11e0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f800d4284c0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f802f0a32c0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f805e70ef30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f80a4cde830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib'>'>
+2019-08-09 10:47:26 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8080b8bb90 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8020b48160:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib'>'>
+2019-08-09 10:47:26 +0000  Running /usr/bin/xattr '-crs' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app'
+2019-08-09 10:47:26 +0000  /usr/bin/xattr exited with 0
+2019-08-09 10:47:26 +0000  Processing step: IDEDistributionCodesignStep
+2019-08-09 10:47:26 +0000  Entitlements for <IDEDistributionItem: 0x7f808262f0f0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f800a5ad2f0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2019-08-09 10:47:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f808262f0f0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f800a5ad2f0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~LkTuK5
+2019-08-09 10:47:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~LkTuK5' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib'
+2019-08-09 10:47:26 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2019-08-09 10:47:26 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:26 +0000  Entitlements for <IDEDistributionItem: 0x7f804248a800 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7fc1995790:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-08-09 10:47:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f804248a800 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7fc1995790:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~dlRbUi
+2019-08-09 10:47:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~dlRbUi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib'
+2019-08-09 10:47:26 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-08-09 10:47:26 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:26 +0000  Entitlements for <IDEDistributionItem: 0x7f808d695860 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f802a04aed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2019-08-09 10:47:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f808d695860 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f802a04aed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~Dgl1MB
+2019-08-09 10:47:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~Dgl1MB' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f8033114420 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8065f7ccd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8033114420 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f8065f7ccd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~8MvWfR
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~8MvWfR' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f803b3357a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7fc1a15530:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f803b3357a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7fc1a15530:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~1ZQPnJ
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~1ZQPnJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f8096ec6f20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f802a80fed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8096ec6f20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f802a80fed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~KvRYdR
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~KvRYdR' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f804ed359c0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f8044e48ed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f804ed359c0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f8044e48ed0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~CPLxME
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~CPLxME' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f804be58d00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8048c87ab0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f804be58d00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f8048c87ab0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~AUSvjY
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~AUSvjY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f80a526d1c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f803800d7a0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f80a526d1c0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f803800d7a0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~wOegTO
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~wOegTO' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib'
+2019-08-09 10:47:27 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-08-09 10:47:27 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:27 +0000  Entitlements for <IDEDistributionItem: 0x7f803f29d790 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f803689e830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-08-09 10:47:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f803f29d790 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f803689e830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~syFdgQ
+2019-08-09 10:47:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~syFdgQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib'
+2019-08-09 10:47:28 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-08-09 10:47:28 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:28 +0000  Entitlements for <IDEDistributionItem: 0x7f8088b88f80 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f804ecaafd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-08-09 10:47:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8088b88f80 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f804ecaafd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~t8fkjT
+2019-08-09 10:47:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~t8fkjT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib'
+2019-08-09 10:47:28 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2019-08-09 10:47:28 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:28 +0000  Entitlements for <IDEDistributionItem: 0x7f802db95520 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f80284ebdd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-08-09 10:47:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f802db95520 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f80284ebdd0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~dx4GrV
+2019-08-09 10:47:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~dx4GrV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib'
+2019-08-09 10:47:28 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-08-09 10:47:28 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:28 +0000  Entitlements for <IDEDistributionItem: 0x7f80a4ef5de0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f8037ee11e0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-08-09 10:47:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f80a4ef5de0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f8037ee11e0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~vvf4vZ
+2019-08-09 10:47:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~vvf4vZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib'
+2019-08-09 10:47:28 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-08-09 10:47:28 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:28 +0000  Entitlements for <IDEDistributionItem: 0x7f800d4284c0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f802f0a32c0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2019-08-09 10:47:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f800d4284c0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f802f0a32c0:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~urjC1t
+2019-08-09 10:47:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~urjC1t' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib'
+2019-08-09 10:47:28 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2019-08-09 10:47:28 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:28 +0000  Entitlements for <IDEDistributionItem: 0x7f805e70ef30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f80a4cde830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-08-09 10:47:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f805e70ef30 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f80a4cde830:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~VJ6oOb
+2019-08-09 10:47:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~VJ6oOb' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib'
+2019-08-09 10:47:28 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2019-08-09 10:47:28 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:28 +0000  Entitlements for <IDEDistributionItem: 0x7f8080b8bb90 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8020b48160:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2019-08-09 10:47:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8080b8bb90 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f8020b48160:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~YXyM5t
+2019-08-09 10:47:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~YXyM5t' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib'
+2019-08-09 10:47:29 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2019-08-09 10:47:29 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:29 +0000  Entitlements for <IDEDistributionItem: 0x7f8096751430 'org.reactjs.native.example.ConfidantHealthMobile' '<DVTFilePath:0x7f8052756880:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app'>'>: {
+    "application-identifier" = "KTURXC6699.org.reactjs.native.example.ConfidantHealthMobile";
+    "com.apple.developer.team-identifier" = KTURXC6699;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KTURXC6699.org.reactjs.native.example.ConfidantHealthMobile"
+    );
+}
+2019-08-09 10:47:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8096751430 'org.reactjs.native.example.ConfidantHealthMobile' '<DVTFilePath:0x7f8052756880:'/Users/stella/Library/Developer/Xcode/Archives/2019-08-09/ConfidantHealthMobile 09-08-2019, 3.42 PM.xcarchive/Products/Applications/ConfidantHealthMobile.app'>'> to: /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~klnhaP
+2019-08-09 10:47:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '416082ABD53E070F0F2E580797E93BC0FFB08972' '--entitlements' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/entitlements~~~klnhaP' '--preserve-metadata=identifier,flags,runtime' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app'
+2019-08-09 10:47:29 +0000  /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root/Payload/ConfidantHealthMobile.app: signed app bundle with Mach-O universal (armv7 arm64) [org.reactjs.native.example.ConfidantHealthMobile]
+2019-08-09 10:47:29 +0000  /usr/bin/codesign exited with 0
+2019-08-09 10:47:29 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-09 10:47:29 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-08-09 10:47:29 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root' '/var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Packages/ConfidantHealthMobile.ipa'
+2019-08-09 10:47:29 +0000  >>> Copying /var/folders/6x/lh_m1r4d5xz5k0j76c_3hrnh0000gn/T/XcodeDistPipeline.~~~8CAZzF/Root 
+2019-08-09 10:47:29 +0000  copying file ./Payload/ConfidantHealthMobile.app/_CodeSignature/CodeResources ... 
+2019-08-09 10:47:29 +0000  31665 bytes for ./Payload/ConfidantHealthMobile.app/_CodeSignature/CodeResources
+2019-08-09 10:47:29 +0000  copying file ./Payload/ConfidantHealthMobile.app/Octicons.ttf ... 
+27440 bytes for ./Payload/ConfidantHealthMobile.app/Octicons.ttf
+copying file ./Payload/ConfidantHealthMobile.app/Feather.ttf ... 
+2019-08-09 10:47:29 +0000  65112 bytes for ./Payload/ConfidantHealthMobile.app/Feather.ttf
+copying file ./Payload/ConfidantHealthMobile.app/AppIcon20x20@2x.png ... 
+2253 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon20x20@2x.png
+copying file ./Payload/ConfidantHealthMobile.app/Entypo.ttf ... 
+2019-08-09 10:47:29 +0000  65584 bytes for ./Payload/ConfidantHealthMobile.app/Entypo.ttf
+2019-08-09 10:47:29 +0000  copying file ./Payload/ConfidantHealthMobile.app/AppIcon20x20@3x.png ... 
+2019-08-09 10:47:29 +0000  3102 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon20x20@3x.png
+copying file ./Payload/ConfidantHealthMobile.app/FontAwesome5_Brands.ttf ... 
+2019-08-09 10:47:29 +0000  134160 bytes for ./Payload/ConfidantHealthMobile.app/FontAwesome5_Brands.ttf
+2019-08-09 10:47:29 +0000  copying file ./Payload/ConfidantHealthMobile.app/MaterialCommunityIcons.ttf ... 
+2019-08-09 10:47:29 +0000  416816 bytes for ./Payload/ConfidantHealthMobile.app/MaterialCommunityIcons.ttf
+2019-08-09 10:47:29 +0000  copying file ./Payload/ConfidantHealthMobile.app/ConfidantHealthMobile ... 
+2019-08-09 10:47:30 +0000  18011968 bytes for ./Payload/ConfidantHealthMobile.app/ConfidantHealthMobile
+copying file ./Payload/ConfidantHealthMobile.app/AppIcon60x60@2x.png ... 
+2019-08-09 10:47:30 +0000  6424 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon60x60@2x.png
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/AppIcon29x29@2x.png ... 
+2990 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon29x29@2x.png
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/AntDesign.ttf ... 
+2019-08-09 10:47:30 +0000  70344 bytes for ./Payload/ConfidantHealthMobile.app/AntDesign.ttf
+copying file ./Payload/ConfidantHealthMobile.app/AppIcon40x40@3x.png ... 
+2019-08-09 10:47:30 +0000  6424 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon40x40@3x.png
+copying file ./Payload/ConfidantHealthMobile.app/Foundation.ttf ... 
+2019-08-09 10:47:30 +0000  56976 bytes for ./Payload/ConfidantHealthMobile.app/Foundation.ttf
+copying file ./Payload/ConfidantHealthMobile.app/Ionicons.ttf ... 
+2019-08-09 10:47:30 +0000  112472 bytes for ./Payload/ConfidantHealthMobile.app/Ionicons.ttf
+copying file ./Payload/ConfidantHealthMobile.app/FontAwesome5_Solid.ttf ... 
+2019-08-09 10:47:30 +0000  208792 bytes for ./Payload/ConfidantHealthMobile.app/FontAwesome5_Solid.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/AppIcon40x40@2x.png ... 
+2019-08-09 10:47:30 +0000  4203 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon40x40@2x.png
+copying file ./Payload/ConfidantHealthMobile.app/FontAwesome5_Regular.ttf ... 
+2019-08-09 10:47:30 +0000  40080 bytes for ./Payload/ConfidantHealthMobile.app/FontAwesome5_Regular.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/RobotoRegular.ttf ... 
+2019-08-09 10:47:30 +0000  171676 bytes for ./Payload/ConfidantHealthMobile.app/RobotoRegular.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/TitilliumWebRegular.ttf ... 
+2019-08-09 10:47:30 +0000  63728 bytes for ./Payload/ConfidantHealthMobile.app/TitilliumWebRegular.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/SFProTextRegular.ttf ... 
+2019-08-09 10:47:30 +0000  434120 bytes for ./Payload/ConfidantHealthMobile.app/SFProTextRegular.ttf
+copying file ./Payload/ConfidantHealthMobile.app/AppIcon29x29@3x.png ... 
+2019-08-09 10:47:30 +0000  4595 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon29x29@3x.png
+copying file ./Payload/ConfidantHealthMobile.app/AppIcon60x60@3x.png ... 
+2019-08-09 10:47:30 +0000  10365 bytes for ./Payload/ConfidantHealthMobile.app/AppIcon60x60@3x.png
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/Base.lproj/LaunchScreen.nib ... 
+2019-08-09 10:47:30 +0000  1258 bytes for ./Payload/ConfidantHealthMobile.app/Base.lproj/LaunchScreen.nib
+copying file ./Payload/ConfidantHealthMobile.app/FontAwesome.ttf ... 
+2019-08-09 10:47:30 +0000  165548 bytes for ./Payload/ConfidantHealthMobile.app/FontAwesome.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/TitilliumWebLight.ttf ... 
+2019-08-09 10:47:30 +0000  64008 bytes for ./Payload/ConfidantHealthMobile.app/TitilliumWebLight.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/SFUITextRegular.ttf ... 
+2019-08-09 10:47:30 +0000  460476 bytes for ./Payload/ConfidantHealthMobile.app/SFUITextRegular.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/Zocial.ttf ... 
+2019-08-09 10:47:30 +0000  25552 bytes for ./Payload/ConfidantHealthMobile.app/Zocial.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/Assets.car ... 
+2019-08-09 10:47:30 +0000  769224 bytes for ./Payload/ConfidantHealthMobile.app/Assets.car
+copying file ./Payload/ConfidantHealthMobile.app/EvilIcons.ttf ... 
+2019-08-09 10:47:30 +0000  13456 bytes for ./Payload/ConfidantHealthMobile.app/EvilIcons.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/RobotoBold.ttf ... 
+2019-08-09 10:47:30 +0000  170760 bytes for ./Payload/ConfidantHealthMobile.app/RobotoBold.ttf
+2019-08-09 10:47:30 +0000  copying file ./Payload/ConfidantHealthMobile.app/main.jsbundle ... 
+2019-08-09 10:47:31 +0000  3042834 bytes for ./Payload/ConfidantHealthMobile.app/main.jsbundle
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Roboto-BoldItalic.ttf ... 
+2019-08-09 10:47:31 +0000  174952 bytes for ./Payload/ConfidantHealthMobile.app/Roboto-BoldItalic.ttf
+copying file ./Payload/ConfidantHealthMobile.app/OpenSansRegular.ttf ... 
+2019-08-09 10:47:31 +0000  217276 bytes for ./Payload/ConfidantHealthMobile.app/OpenSansRegular.ttf
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib ... 
+2019-08-09 10:47:31 +0000  253648 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreImage.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib ... 
+2019-08-09 10:47:31 +0000  302640 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib ... 
+2019-08-09 10:47:31 +0000  16915040 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCore.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-08-09 10:47:31 +0000  646848 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreGraphics.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib ... 
+2019-08-09 10:47:31 +0000  477152 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftUIKit.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib ... 
+2019-08-09 10:47:31 +0000  298096 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftMetal.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib ... 
+2019-08-09 10:47:31 +0000  1018912 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftDispatch.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib ... 
+2019-08-09 10:47:31 +0000  299424 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftos.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-08-09 10:47:31 +0000  253792 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreFoundation.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib ... 
+2019-08-09 10:47:31 +0000  369728 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftDarwin.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib ... 
+2019-08-09 10:47:31 +0000  256864 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftQuartzCore.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib ... 
+2019-08-09 10:47:31 +0000  311312 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreAudio.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib ... 
+2019-08-09 10:47:31 +0000  503456 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftAVFoundation.dylib
+2019-08-09 10:47:31 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib ... 
+2019-08-09 10:47:32 +0000  8479552 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftFoundation.dylib
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib ... 
+2019-08-09 10:47:32 +0000  302656 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftCoreMedia.dylib
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib ... 
+2019-08-09 10:47:32 +0000  1013296 bytes for ./Payload/ConfidantHealthMobile.app/Frameworks/libswiftsimd.dylib
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/SimpleLineIcons.ttf ... 
+2019-08-09 10:47:32 +0000  54056 bytes for ./Payload/ConfidantHealthMobile.app/SimpleLineIcons.ttf
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/embedded.mobileprovision ... 
+2019-08-09 10:47:32 +0000  20373 bytes for ./Payload/ConfidantHealthMobile.app/embedded.mobileprovision
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/bell.png ... 
+2019-08-09 10:47:32 +0000  2989 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/bell.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/airbnb-star-selected.png ... 
+934 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/airbnb-star-selected.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/heart.png ... 
+2019-08-09 10:47:32 +0000  1928 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/heart.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/airbnb-star.png ... 
+930 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/airbnb-star.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/rocket.png ... 
+2019-08-09 10:47:32 +0000  4050 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/rocket.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/star.png ... 
+1961 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-native-ratings/src/images/star.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@3x.png ... 
+2019-08-09 10:47:32 +0000  761 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@3x.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@2x.png ... 
+2019-08-09 10:47:32 +0000  405 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon@2x.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon.png ... 
+2019-08-09 10:47:32 +0000  290 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon-mask.png ... 
+2019-08-09 10:47:32 +0000  1619 bytes for ./Payload/ConfidantHealthMobile.app/assets/node_modules/react-navigation-stack/lib/module/views/assets/back-icon-mask.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/some1-white.png ... 
+2019-08-09 10:47:32 +0000  15406 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/some1-white.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/check.png ... 
+2019-08-09 10:47:32 +0000  18374 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/check.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/forward-arrow.png ... 
+2019-08-09 10:47:32 +0000  14675 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/forward-arrow.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/loader1.gif ... 
+2019-08-09 10:47:32 +0000  25010 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/loader1.gif
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-mic-selected.png ... 
+2019-08-09 10:47:32 +0000  19120 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-mic-selected.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/male.png ... 
+2019-08-09 10:47:32 +0000  15437 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/male.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/slider1.png ... 
+2019-08-09 10:47:32 +0000  112021 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/slider1.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/some1.png ... 
+773 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/some1.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/search-grey.png ... 
+2019-08-09 10:47:32 +0000  507 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/search-grey.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/library.png ... 
+374 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/library.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/back-arrow.png ... 
+269 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/back-arrow.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-cam-selected.png ... 
+2019-08-09 10:47:32 +0000  3855 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-cam-selected.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/information.png ... 
+2019-08-09 10:47:32 +0000  36103 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/information.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-mic.png ... 
+2019-08-09 10:47:32 +0000  17448 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-mic.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-no-cam.png ... 
+2019-08-09 10:47:32 +0000  16114 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-no-cam.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/myself-white.png ... 
+2019-08-09 10:47:32 +0000  603 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/myself-white.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/female.png ... 
+2019-08-09 10:47:32 +0000  714 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/female.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/other.png ... 
+2019-08-09 10:47:32 +0000  699 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/other.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/read.png ... 
+2019-08-09 10:47:32 +0000  571 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/read.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/progressReport.png ... 
+2019-08-09 10:47:32 +0000  14383 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/progressReport.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/typing.gif ... 
+2019-08-09 10:47:32 +0000  58211 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/typing.gif
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/pencil.png ... 
+481 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/pencil.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/other-white.png ... 
+15348 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/other-white.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-call-end.png ... 
+1103 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/vd-call-end.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/Picture.png ... 
+2019-08-09 10:47:32 +0000  136665 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/Picture.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/female-white.png ... 
+2019-08-09 10:47:32 +0000  15327 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/female-white.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/back-white.png ... 
+2019-08-09 10:47:32 +0000  15058 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/back-white.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/accessLearningLib.png ... 
+2019-08-09 10:47:32 +0000  18668 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/accessLearningLib.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/myself.png ... 
+2019-08-09 10:47:32 +0000  15489 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/myself.png
+copying file ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/male-white.png ... 
+2019-08-09 10:47:32 +0000  581 bytes for ./Payload/ConfidantHealthMobile.app/assets/src/assets/images/male-white.png
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/Info.plist ... 
+2019-08-09 10:47:32 +0000  2368 bytes for ./Payload/ConfidantHealthMobile.app/Info.plist
+copying file ./Payload/ConfidantHealthMobile.app/RobotoItalic.ttf ... 
+2019-08-09 10:47:32 +0000  173932 bytes for ./Payload/ConfidantHealthMobile.app/RobotoItalic.ttf
+2019-08-09 10:47:32 +0000  copying file ./Payload/ConfidantHealthMobile.app/PkgInfo ... 
+8 bytes for ./Payload/ConfidantHealthMobile.app/PkgInfo
+copying file ./Payload/ConfidantHealthMobile.app/MaterialIcons.ttf ... 
+2019-08-09 10:47:32 +0000  128180 bytes for ./Payload/ConfidantHealthMobile.app/MaterialIcons.ttf
+2019-08-09 10:47:32 +0000  copying file ./AppThinning.plist ... 
+228 bytes for ./AppThinning.plist
+2019-08-09 10:47:32 +0000  /usr/bin/ditto exited with 0
+2019-08-09 10:47:32 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-08-09 10:47:32 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-08-09 10:47:32 +0000  Processing step: IDEDistributionCreateManifestStep

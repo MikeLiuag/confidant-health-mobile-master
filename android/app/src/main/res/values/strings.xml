@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Confidant</string>
+    <string name="facebook_app_id">930223060797131</string>
+    <string name="confidant_health_main_title">Confidant Health Main Title</string>
+    <string name="alfie_logo">Alfie Logo</string>
+    <string name="hipaa_seal">Hipaa Seal</string>
+</resources>

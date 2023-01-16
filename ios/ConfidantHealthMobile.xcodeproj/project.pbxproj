@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084D63460A8E4AE6B37326EC /* SourceSerifPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97662BDD64EE4CB79AC751D3 /* SourceSerifPro-Regular.ttf */; };
+		0CB89AF8B81E96826EDAF3FA /* libPods-ConfidantHealthMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8719E29AFA85426122FA99BA /* libPods-ConfidantHealthMobile.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A16C99198D64D4359BAC1CE /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1FA63E55EDF1A3D88A5D67 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		252175E1A2394ACC85EADDD1 /* TitilliumWebLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2F2A8659DE84D38A8F7A58C /* TitilliumWebLight.ttf */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
+		2DBD34B9ED9F4918A29D1D10 /* SFProTextRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81BDFE3CDB014632A1A6C681 /* SFProTextRegular.ttf */; };
+		2E8A2E62EC534863A4569CEF /* SourceSerifPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81E1DB19C9294BE29B479E1A /* SourceSerifPro-Light.ttf */; };
+		5507DCF722C61E6B007E609E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5507DCF622C61E6B007E609E /* JavaScriptCore.framework */; };
+		5527681522F9B0C100123A97 /* RobotoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5527681222F9B0C100123A97 /* RobotoBold.ttf */; };
+		5527681622F9B0C100123A97 /* RobotoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5527681322F9B0C100123A97 /* RobotoItalic.ttf */; };
+		555293C823073180000A20CA /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555293C723073180000A20CA /* UserNotifications.framework */; };
+		5561A4662350C66200C2BED6 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561A4652350C66200C2BED6 /* NotificationService.m */; };
+		5561A46A2350C66200C2BED6 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5561A4622350C66200C2BED6 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55A26663232A7091005F96B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55A26625232A7091005F96B5 /* GoogleService-Info.plist */; };
+		55D7D25E232B95530014A65F /* LauchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7D25D232B95530014A65F /* LauchViewController.swift */; };
+		55D7D2BA232BA0A20014A65F /* LaunchBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D7D2B9232BA0A20014A65F /* LaunchBoard.storyboard */; };
+		55D7D2BE232F6B460014A65F /* circle_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 55D7D2BD232F6B460014A65F /* circle_animation.json */; };
+		55DEBC90229546D300DC07A1 /* RobotoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55DEBC8F229546D300DC07A1 /* RobotoRegular.ttf */; };
+		55DEBC92229546E300DC07A1 /* OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55DEBC91229546E300DC07A1 /* OpenSansRegular.ttf */; };
+		6F66D7BFBF6F4FC6B26F9ABD /* SFUITextRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 698C7A3017B249B2AB46E869 /* SFUITextRegular.ttf */; };
+		868A9F2A72484E71900C0D16 /* SourceSerifPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 064597D5088E421E9AFDE8FD /* SourceSerifPro-ExtraLight.ttf */; };
+		919A0A303B838E65CE195312 /* libPods-ConfidantHealthMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBB5D88CE89FCE8C88E6156 /* libPods-ConfidantHealthMobile-tvOS.a */; };
+		93B51E0446204BBF866B5B86 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09A121A44268456090FDC9BC /* Manrope-Regular.ttf */; };
+		B3BE617C2692FB2B00E606D7 /* ManropeExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61592692FB2800E606D7 /* ManropeExtraBold.ttf */; };
+		B3BE617E2692FB2B00E606D7 /* ManropeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE615B2692FB2800E606D7 /* ManropeBold.ttf */; };
+		B3BE617F2692FB2B00E606D7 /* SourceSerifProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE615C2692FB2800E606D7 /* SourceSerifProBlack.ttf */; };
+		B3BE61802692FB2B00E606D7 /* SourceSerifProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE615D2692FB2900E606D7 /* SourceSerifProBold.ttf */; };
+		B3BE61812692FB2B00E606D7 /* SourceSerifProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE615E2692FB2900E606D7 /* SourceSerifProRegular.ttf */; };
+		B3BE61862692FB2B00E606D7 /* ManropeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61632692FB2900E606D7 /* ManropeRegular.ttf */; };
+		B3BE61882692FB2B00E606D7 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61652692FB2900E606D7 /* Manrope-Bold.ttf */; };
+		B3BE618B2692FB2B00E606D7 /* ManropeLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61682692FB2900E606D7 /* ManropeLight.ttf */; };
+		B3BE618C2692FB2B00E606D7 /* ManropeSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61692692FB2900E606D7 /* ManropeSemiBold.ttf */; };
+		B3BE618E2692FB2B00E606D7 /* SourceSerifProLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE616B2692FB2A00E606D7 /* SourceSerifProLight.ttf */; };
+		B3BE618F2692FB2B00E606D7 /* SourceSerifPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE616C2692FB2A00E606D7 /* SourceSerifPro-Black.ttf */; };
+		B3BE61902692FB2B00E606D7 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE616D2692FB2A00E606D7 /* Manrope-ExtraBold.ttf */; };
+		B3BE61922692FB2B00E606D7 /* SourceSerifProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE616F2692FB2A00E606D7 /* SourceSerifProSemiBold.ttf */; };
+		B3BE61932692FB2B00E606D7 /* TitilliumWebRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61702692FB2A00E606D7 /* TitilliumWebRegular.ttf */; };
+		B3BE61942692FB2B00E606D7 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61712692FB2A00E606D7 /* Manrope-ExtraLight.ttf */; };
+		B3BE61952692FB2B00E606D7 /* SourceSerifProExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61722692FB2A00E606D7 /* SourceSerifProExtraLight.ttf */; };
+		B3BE61962692FB2B00E606D7 /* ManropeExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61732692FB2A00E606D7 /* ManropeExtraLight.ttf */; };
+		B3BE61972692FB2B00E606D7 /* SourceSerifPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61742692FB2A00E606D7 /* SourceSerifPro-SemiBold.ttf */; };
+		B3BE61982692FB2B00E606D7 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61752692FB2A00E606D7 /* Manrope-SemiBold.ttf */; };
+		B3BE619A2692FB2B00E606D7 /* RobotoBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61772692FB2B00E606D7 /* RobotoBoldItalic.ttf */; };
+		B3BE619B2692FB2B00E606D7 /* SourceSerifPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61782692FB2B00E606D7 /* SourceSerifPro-Bold.ttf */; };
+		B3BE619C2692FB2B00E606D7 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE61792692FB2B00E606D7 /* Manrope-Light.ttf */; };
+		B3BE619D2692FB2B00E606D7 /* ManropeMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE617A2692FB2B00E606D7 /* ManropeMedium.ttf */; };
+		E23AA7342507783000FF486F /* ConfidantHealthMobile.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 55529373230730B1000A20CA /* ConfidantHealthMobile.entitlements */; };
+		E2D2EB75256E27840088B55A /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E2D2EB74256E27840088B55A /* main.jsbundle */; };
+		E56CA4BD2720486200270FC4 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E56CA4BC2720486200270FC4 /* assets */; };
+		EAF461C99F9D434982D7A1BF /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F28D4CEAE8D6455CAEE1E45E /* Manrope-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5561A4682350C66200C2BED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5561A4612350C66200C2BED6;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5561A46B2350C66200C2BED6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5561A46A2350C66200C2BED6 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ConfidantHealthMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfidantHealthMobileTests.m; sourceTree = "<group>"; };
+		01011FAEC0A14C72908AB55C /* Manrope-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Bold.ttf"; path = "../src/assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		030D529F2A324A67BB4F0C23 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSansRegular.ttf; path = ../src/assets/fonts/OpenSansRegular.ttf; sourceTree = "<group>"; };
+		051775ACD0404AB5B19E0A82 /* SourceSerifPro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSerifPro-SemiBold.ttf"; path = "../src/assets/fonts/SourceSerifPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		064597D5088E421E9AFDE8FD /* SourceSerifPro-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSerifPro-ExtraLight.ttf"; path = "../src/assets/fonts/SourceSerifPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0667076E922148DDAF1DADB2 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		09A121A44268456090FDC9BC /* Manrope-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Regular.ttf"; path = "../src/assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Confidant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Confidant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ConfidantHealthMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ConfidantHealthMobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ConfidantHealthMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ConfidantHealthMobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ConfidantHealthMobile/main.m; sourceTree = "<group>"; };
+		14925814ED6B9C2FFBABB5DB /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		29C57B806C8144E1A7C38B0E /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		2CB0E07B6F8B48CE8A3EF21D /* SourceSerifPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSerifPro-Bold.ttf"; path = "../src/assets/fonts/SourceSerifPro-Bold.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ConfidantHealthMobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConfidantHealthMobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2034C328C05AC44DB16193 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		39E3ABA0838F48A3AF380F4F /* RobotoRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoRegular.ttf; path = ../src/assets/fonts/RobotoRegular.ttf; sourceTree = "<group>"; };
+		410E695963904C13952B80F2 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-SemiBold.ttf"; path = "../src/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		44A8C1D8E1B54B1CB856C87B /* SourceSerifPro-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSerifPro-Black.ttf"; path = "../src/assets/fonts/SourceSerifPro-Black.ttf"; sourceTree = "<group>"; };
+		4AE798F426FC428996742945 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		4BBB5D88CE89FCE8C88E6156 /* libPods-ConfidantHealthMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfidantHealthMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D16627F2BD14CDC83E6AA20 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		4F266274101B41F993056B5B /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		4FD1BDC991F79C6BFB3AE2C5 /* Pods-ConfidantHealthMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthMobile.debug.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthMobile/Pods-ConfidantHealthMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		5073A8BAA945473FB4A4EFE1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		5275326D8A16442C8BD5268D /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		5507DCF622C61E6B007E609E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5527681222F9B0C100123A97 /* RobotoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoBold.ttf; path = ../src/assets/fonts/RobotoBold.ttf; sourceTree = "<group>"; };
+		5527681322F9B0C100123A97 /* RobotoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoItalic.ttf; path = ../src/assets/fonts/RobotoItalic.ttf; sourceTree = "<group>"; };
+		554C621022F46D97000E62BC /* folly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = folly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55529373230730B1000A20CA /* ConfidantHealthMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ConfidantHealthMobile.entitlements; path = ConfidantHealthMobile/ConfidantHealthMobile.entitlements; sourceTree = "<group>"; };
+		555293C723073180000A20CA /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		5561A4622350C66200C2BED6 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5561A4642350C66200C2BED6 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		5561A4652350C66200C2BED6 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		5561A4672350C66200C2BED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5561A46F23546DEC00C2BED6 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		558C8E9B234DE94D00EB37C6 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		558C8E9C234DE94D00EB37C6 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		558C8E9D234DE94D00EB37C6 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		558C8E9E234DE94D00EB37C6 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		558C8E9F234DE94D00EB37C6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		558C8EA0234DE94D00EB37C6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		558C8EA1234DE94D00EB37C6 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		558C8EA2234DE94D00EB37C6 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		558C8EA3234DE94D00EB37C6 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		558C8EA4234DE94D00EB37C6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		558C8EA5234DE94D00EB37C6 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		558C8EA6234DE94D00EB37C6 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		558C8EA7234DE94D00EB37C6 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		558C8EA8234DE94D00EB37C6 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		558C8EA9234DE94D00EB37C6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		558C8EAA234DE94D00EB37C6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		55A26625232A7091005F96B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55A5595D22E0515B0082FC57 /* ConfidantHealthMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConfidantHealthMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		55D7D25D232B95530014A65F /* LauchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchViewController.swift; sourceTree = "<group>"; };
+		55D7D2B9232BA0A20014A65F /* LaunchBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchBoard.storyboard; sourceTree = "<group>"; };
+		55D7D2BD232F6B460014A65F /* circle_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = circle_animation.json; sourceTree = "<group>"; };
+		55DEBC8F229546D300DC07A1 /* RobotoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoRegular.ttf; path = ../src/assets/fonts/RobotoRegular.ttf; sourceTree = "<group>"; };
+		55DEBC91229546E300DC07A1 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenSansRegular.ttf; path = ../src/assets/fonts/OpenSansRegular.ttf; sourceTree = "<group>"; };
+		5C24839E19714C5291D4D96E /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		698C7A3017B249B2AB46E869 /* SFUITextRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SFUITextRegular.ttf; path = ../src/assets/fonts/SFUITextRegular.ttf; sourceTree = "<group>"; };
+		6A1FA63E55EDF1A3D88A5D67 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74104CBD761A464BA53BD70F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		75E5E46165E44424AD286169 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-ExtraBold.ttf"; path = "../src/assets/fonts/Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		77C6FEC263EE4968882AB441 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		7D236D9922F64900985AE94F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		7D3EDE1133D6416C99920D39 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		81BDFE3CDB014632A1A6C681 /* SFProTextRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SFProTextRegular.ttf; path = ../src/assets/fonts/SFProTextRegular.ttf; sourceTree = "<group>"; };
+		81E1DB19C9294BE29B479E1A /* SourceSerifPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSerifPro-Light.ttf"; path = "../src/assets/fonts/SourceSerifPro-Light.ttf"; sourceTree = "<group>"; };
+		841931C1E5CE9E4757A970E4 /* Pods-ConfidantHealthMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthMobile.release.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthMobile/Pods-ConfidantHealthMobile.release.xcconfig"; sourceTree = "<group>"; };
+		8719E29AFA85426122FA99BA /* libPods-ConfidantHealthMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfidantHealthMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8793DE1940C940E191205971 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		8AA9918A69EDFE332A496C1F /* Pods-ConfidantHealthMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthMobile-tvOS/Pods-ConfidantHealthMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9249BF00A12646F9937039DE /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		97662BDD64EE4CB79AC751D3 /* SourceSerifPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSerifPro-Regular.ttf"; path = "../src/assets/fonts/SourceSerifPro-Regular.ttf"; sourceTree = "<group>"; };
+		97C66A6367F1423699BFC696 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		AE593795F6144011A54D052D /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		B2F2A8659DE84D38A8F7A58C /* TitilliumWebLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TitilliumWebLight.ttf; path = ../src/assets/fonts/TitilliumWebLight.ttf; sourceTree = "<group>"; };
+		B3BE61582692FB2800E606D7 /* SourceSerifPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Light.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Light.ttf"; sourceTree = "<group>"; };
+		B3BE61592692FB2800E606D7 /* ManropeExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeExtraBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeExtraBold.ttf"; sourceTree = "<group>"; };
+		B3BE615A2692FB2800E606D7 /* SourceSerifPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-ExtraLight.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE615B2692FB2800E606D7 /* ManropeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeBold.ttf"; sourceTree = "<group>"; };
+		B3BE615C2692FB2800E606D7 /* SourceSerifProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProBlack.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProBlack.ttf"; sourceTree = "<group>"; };
+		B3BE615D2692FB2900E606D7 /* SourceSerifProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProBold.ttf"; sourceTree = "<group>"; };
+		B3BE615E2692FB2900E606D7 /* SourceSerifProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProRegular.ttf"; sourceTree = "<group>"; };
+		B3BE615F2692FB2900E606D7 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Regular.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		B3BE61602692FB2900E606D7 /* SFUITextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SFUITextRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SFUITextRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61612692FB2900E606D7 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Medium.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		B3BE61622692FB2900E606D7 /* SourceSerifPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Regular.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Regular.ttf"; sourceTree = "<group>"; };
+		B3BE61632692FB2900E606D7 /* ManropeRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61642692FB2900E606D7 /* TitilliumWebLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TitilliumWebLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/TitilliumWebLight.ttf"; sourceTree = "<group>"; };
+		B3BE61652692FB2900E606D7 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Bold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		B3BE61662692FB2900E606D7 /* SFProTextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SFProTextRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SFProTextRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61672692FB2900E606D7 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenSansRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/OpenSansRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61682692FB2900E606D7 /* ManropeLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeLight.ttf"; sourceTree = "<group>"; };
+		B3BE61692692FB2900E606D7 /* ManropeSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeSemiBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeSemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE616A2692FB2A00E606D7 /* RobotoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoRegular.ttf"; sourceTree = "<group>"; };
+		B3BE616B2692FB2A00E606D7 /* SourceSerifProLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProLight.ttf"; sourceTree = "<group>"; };
+		B3BE616C2692FB2A00E606D7 /* SourceSerifPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Black.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Black.ttf"; sourceTree = "<group>"; };
+		B3BE616D2692FB2A00E606D7 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraBold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B3BE616E2692FB2A00E606D7 /* RobotoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoItalic.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoItalic.ttf"; sourceTree = "<group>"; };
+		B3BE616F2692FB2A00E606D7 /* SourceSerifProSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProSemiBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProSemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61702692FB2A00E606D7 /* TitilliumWebRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TitilliumWebRegular.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/TitilliumWebRegular.ttf"; sourceTree = "<group>"; };
+		B3BE61712692FB2A00E606D7 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-ExtraLight.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61722692FB2A00E606D7 /* SourceSerifProExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SourceSerifProExtraLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifProExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61732692FB2A00E606D7 /* ManropeExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeExtraLight.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeExtraLight.ttf"; sourceTree = "<group>"; };
+		B3BE61742692FB2A00E606D7 /* SourceSerifPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-SemiBold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61752692FB2A00E606D7 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-SemiBold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		B3BE61762692FB2A00E606D7 /* RobotoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoBold.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoBold.ttf"; sourceTree = "<group>"; };
+		B3BE61772692FB2B00E606D7 /* RobotoBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RobotoBoldItalic.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/RobotoBoldItalic.ttf"; sourceTree = "<group>"; };
+		B3BE61782692FB2B00E606D7 /* SourceSerifPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSerifPro-Bold.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/SourceSerifPro-Bold.ttf"; sourceTree = "<group>"; };
+		B3BE61792692FB2B00E606D7 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Light.ttf"; path = "../node_modules/ch-mobile-shared/src/assets/fonts/Manrope-Light.ttf"; sourceTree = "<group>"; };
+		B3BE617A2692FB2B00E606D7 /* ManropeMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManropeMedium.ttf; path = "../node_modules/ch-mobile-shared/src/assets/fonts/ManropeMedium.ttf"; sourceTree = "<group>"; };
+		B554A90AACB8D2546B15FBC4 /* Pods-ConfidantHealthMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfidantHealthMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ConfidantHealthMobile-tvOS/Pods-ConfidantHealthMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C21915CDA91E44ADB40D559F /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-ExtraLight.ttf"; path = "../src/assets/fonts/Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C6CF4F2841AE40E291BB58F5 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		CEE188F054644A089B88916F /* libOpenTokReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libOpenTokReactNative.a; sourceTree = "<group>"; };
+		D9191FF468364AB79A6FD164 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		E29715672775CD1A00FE0A11 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2D2EB74256E27840088B55A /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		E326CB2830764CB68147E306 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E48AED818DB447499AD02038 /* TitilliumWebRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TitilliumWebRegular.ttf; path = ../src/assets/fonts/TitilliumWebRegular.ttf; sourceTree = "<group>"; };
+		E56CA4BC2720486200270FC4 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		F0851B22FF30448FB2B5FEAF /* RobotoBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = RobotoBoldItalic.ttf; path = ../src/assets/fonts/RobotoBoldItalic.ttf; sourceTree = "<group>"; };
+		F28D4CEAE8D6455CAEE1E45E /* Manrope-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Medium.ttf"; path = "../src/assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		F8145418868C4A2B98F6B963 /* Manrope-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Light.ttf"; path = "../src/assets/fonts/Manrope-Light.ttf"; sourceTree = "<group>"; };
+		FA47509518A64E1E8614183A /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555293C823073180000A20CA /* UserNotifications.framework in Frameworks */,
+				5507DCF722C61E6B007E609E /* JavaScriptCore.framework in Frameworks */,
+				0CB89AF8B81E96826EDAF3FA /* libPods-ConfidantHealthMobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
+				919A0A303B838E65CE195312 /* libPods-ConfidantHealthMobile-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5561A45F2350C66200C2BED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A16C99198D64D4359BAC1CE /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ConfidantHealthMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ConfidantHealthMobileTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ConfidantHealthMobileTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ConfidantHealthMobile */ = {
+			isa = PBXGroup;
+			children = (
+				55529373230730B1000A20CA /* ConfidantHealthMobile.entitlements */,
+				55D7D2BD232F6B460014A65F /* circle_animation.json */,
+				55A26625232A7091005F96B5 /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				55A5595D22E0515B0082FC57 /* ConfidantHealthMobile-Bridging-Header.h */,
+				55D7D25D232B95530014A65F /* LauchViewController.swift */,
+				55D7D2B9232BA0A20014A65F /* LaunchBoard.storyboard */,
+			);
+			name = ConfidantHealthMobile;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				555293C723073180000A20CA /* UserNotifications.framework */,
+				554C621022F46D97000E62BC /* folly.framework */,
+				5507DCF622C61E6B007E609E /* JavaScriptCore.framework */,
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				8719E29AFA85426122FA99BA /* libPods-ConfidantHealthMobile.a */,
+				4BBB5D88CE89FCE8C88E6156 /* libPods-ConfidantHealthMobile-tvOS.a */,
+				6A1FA63E55EDF1A3D88A5D67 /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5561A4632350C66200C2BED6 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5561A46F23546DEC00C2BED6 /* OneSignalNotificationServiceExtension.entitlements */,
+				5561A4642350C66200C2BED6 /* NotificationService.h */,
+				5561A4652350C66200C2BED6 /* NotificationService.m */,
+				5561A4672350C66200C2BED6 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		558C8E9A234DE94D00EB37C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				558C8E9B234DE94D00EB37C6 /* Fontisto.ttf */,
+				558C8E9C234DE94D00EB37C6 /* Octicons.ttf */,
+				558C8E9D234DE94D00EB37C6 /* Feather.ttf */,
+				558C8E9E234DE94D00EB37C6 /* Entypo.ttf */,
+				558C8E9F234DE94D00EB37C6 /* FontAwesome5_Brands.ttf */,
+				558C8EA0234DE94D00EB37C6 /* MaterialCommunityIcons.ttf */,
+				558C8EA1234DE94D00EB37C6 /* AntDesign.ttf */,
+				558C8EA2234DE94D00EB37C6 /* Foundation.ttf */,
+				558C8EA3234DE94D00EB37C6 /* Ionicons.ttf */,
+				558C8EA4234DE94D00EB37C6 /* FontAwesome5_Solid.ttf */,
+				558C8EA5234DE94D00EB37C6 /* FontAwesome5_Regular.ttf */,
+				558C8EA6234DE94D00EB37C6 /* FontAwesome.ttf */,
+				558C8EA7234DE94D00EB37C6 /* Zocial.ttf */,
+				558C8EA8234DE94D00EB37C6 /* EvilIcons.ttf */,
+				558C8EA9234DE94D00EB37C6 /* SimpleLineIcons.ttf */,
+				558C8EAA234DE94D00EB37C6 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		55DEBC0622940B4400DC07A1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FA47509518A64E1E8614183A /* libRNCAsyncStorage.a */,
+				CEE188F054644A089B88916F /* libOpenTokReactNative.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				E29715672775CD1A00FE0A11 /* Config.xcconfig */,
+				E56CA4BC2720486200270FC4 /* assets */,
+				B3BE61652692FB2900E606D7 /* Manrope-Bold.ttf */,
+				B3BE616D2692FB2A00E606D7 /* Manrope-ExtraBold.ttf */,
+				B3BE61712692FB2A00E606D7 /* Manrope-ExtraLight.ttf */,
+				B3BE61792692FB2B00E606D7 /* Manrope-Light.ttf */,
+				B3BE61612692FB2900E606D7 /* Manrope-Medium.ttf */,
+				B3BE615F2692FB2900E606D7 /* Manrope-Regular.ttf */,
+				B3BE61752692FB2A00E606D7 /* Manrope-SemiBold.ttf */,
+				B3BE615B2692FB2800E606D7 /* ManropeBold.ttf */,
+				B3BE61592692FB2800E606D7 /* ManropeExtraBold.ttf */,
+				B3BE61732692FB2A00E606D7 /* ManropeExtraLight.ttf */,
+				B3BE61682692FB2900E606D7 /* ManropeLight.ttf */,
+				B3BE617A2692FB2B00E606D7 /* ManropeMedium.ttf */,
+				B3BE61632692FB2900E606D7 /* ManropeRegular.ttf */,
+				B3BE61692692FB2900E606D7 /* ManropeSemiBold.ttf */,
+				B3BE61672692FB2900E606D7 /* OpenSansRegular.ttf */,
+				B3BE61762692FB2A00E606D7 /* RobotoBold.ttf */,
+				B3BE61772692FB2B00E606D7 /* RobotoBoldItalic.ttf */,
+				B3BE616E2692FB2A00E606D7 /* RobotoItalic.ttf */,
+				B3BE616A2692FB2A00E606D7 /* RobotoRegular.ttf */,
+				B3BE61662692FB2900E606D7 /* SFProTextRegular.ttf */,
+				B3BE61602692FB2900E606D7 /* SFUITextRegular.ttf */,
+				B3BE616C2692FB2A00E606D7 /* SourceSerifPro-Black.ttf */,
+				B3BE61782692FB2B00E606D7 /* SourceSerifPro-Bold.ttf */,
+				B3BE615A2692FB2800E606D7 /* SourceSerifPro-ExtraLight.ttf */,
+				B3BE61582692FB2800E606D7 /* SourceSerifPro-Light.ttf */,
+				B3BE61622692FB2900E606D7 /* SourceSerifPro-Regular.ttf */,
+				B3BE61742692FB2A00E606D7 /* SourceSerifPro-SemiBold.ttf */,
+				B3BE615C2692FB2800E606D7 /* SourceSerifProBlack.ttf */,
+				B3BE615D2692FB2900E606D7 /* SourceSerifProBold.ttf */,
+				B3BE61722692FB2A00E606D7 /* SourceSerifProExtraLight.ttf */,
+				B3BE616B2692FB2A00E606D7 /* SourceSerifProLight.ttf */,
+				B3BE615E2692FB2900E606D7 /* SourceSerifProRegular.ttf */,
+				B3BE616F2692FB2A00E606D7 /* SourceSerifProSemiBold.ttf */,
+				B3BE61642692FB2900E606D7 /* TitilliumWebLight.ttf */,
+				B3BE61702692FB2A00E606D7 /* TitilliumWebRegular.ttf */,
+				E2D2EB74256E27840088B55A /* main.jsbundle */,
+				558C8E9A234DE94D00EB37C6 /* Fonts */,
+				5527681222F9B0C100123A97 /* RobotoBold.ttf */,
+				5527681322F9B0C100123A97 /* RobotoItalic.ttf */,
+				55DEBC91229546E300DC07A1 /* OpenSansRegular.ttf */,
+				55DEBC8F229546D300DC07A1 /* RobotoRegular.ttf */,
+				13B07FAE1A68108700A75B9A /* ConfidantHealthMobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ConfidantHealthMobileTests */,
+				5561A4632350C66200C2BED6 /* OneSignalNotificationServiceExtension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E140371C9ADE4FC59258C229 /* Resources */,
+				55DEBC0622940B4400DC07A1 /* Recovered References */,
+				9DC5744496A578EE44C4F723 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Confidant.app */,
+				2D02E47B1E0B4A5D006451C7 /* ConfidantHealthMobile-tvOS.app */,
+				5561A4622350C66200C2BED6 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC5744496A578EE44C4F723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FD1BDC991F79C6BFB3AE2C5 /* Pods-ConfidantHealthMobile.debug.xcconfig */,
+				841931C1E5CE9E4757A970E4 /* Pods-ConfidantHealthMobile.release.xcconfig */,
+				8AA9918A69EDFE332A496C1F /* Pods-ConfidantHealthMobile-tvOS.debug.xcconfig */,
+				B554A90AACB8D2546B15FBC4 /* Pods-ConfidantHealthMobile-tvOS.release.xcconfig */,
+				2D2034C328C05AC44DB16193 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				14925814ED6B9C2FFBABB5DB /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E140371C9ADE4FC59258C229 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29C57B806C8144E1A7C38B0E /* Roboto_medium.ttf */,
+				77C6FEC263EE4968882AB441 /* Roboto.ttf */,
+				5275326D8A16442C8BD5268D /* rubicon-icon-font.ttf */,
+				030D529F2A324A67BB4F0C23 /* OpenSansRegular.ttf */,
+				39E3ABA0838F48A3AF380F4F /* RobotoRegular.ttf */,
+				81BDFE3CDB014632A1A6C681 /* SFProTextRegular.ttf */,
+				698C7A3017B249B2AB46E869 /* SFUITextRegular.ttf */,
+				B2F2A8659DE84D38A8F7A58C /* TitilliumWebLight.ttf */,
+				E48AED818DB447499AD02038 /* TitilliumWebRegular.ttf */,
+				01011FAEC0A14C72908AB55C /* Manrope-Bold.ttf */,
+				75E5E46165E44424AD286169 /* Manrope-ExtraBold.ttf */,
+				C21915CDA91E44ADB40D559F /* Manrope-ExtraLight.ttf */,
+				F8145418868C4A2B98F6B963 /* Manrope-Light.ttf */,
+				F28D4CEAE8D6455CAEE1E45E /* Manrope-Medium.ttf */,
+				09A121A44268456090FDC9BC /* Manrope-Regular.ttf */,
+				410E695963904C13952B80F2 /* Manrope-SemiBold.ttf */,
+				F0851B22FF30448FB2B5FEAF /* RobotoBoldItalic.ttf */,
+				44A8C1D8E1B54B1CB856C87B /* SourceSerifPro-Black.ttf */,
+				2CB0E07B6F8B48CE8A3EF21D /* SourceSerifPro-Bold.ttf */,
+				064597D5088E421E9AFDE8FD /* SourceSerifPro-ExtraLight.ttf */,
+				81E1DB19C9294BE29B479E1A /* SourceSerifPro-Light.ttf */,
+				97662BDD64EE4CB79AC751D3 /* SourceSerifPro-Regular.ttf */,
+				051775ACD0404AB5B19E0A82 /* SourceSerifPro-SemiBold.ttf */,
+				4D16627F2BD14CDC83E6AA20 /* AntDesign.ttf */,
+				97C66A6367F1423699BFC696 /* Entypo.ttf */,
+				5C24839E19714C5291D4D96E /* EvilIcons.ttf */,
+				AE593795F6144011A54D052D /* Feather.ttf */,
+				E326CB2830764CB68147E306 /* FontAwesome.ttf */,
+				7D236D9922F64900985AE94F /* FontAwesome5_Brands.ttf */,
+				5073A8BAA945473FB4A4EFE1 /* FontAwesome5_Regular.ttf */,
+				4F266274101B41F993056B5B /* FontAwesome5_Solid.ttf */,
+				9249BF00A12646F9937039DE /* Fontisto.ttf */,
+				D9191FF468364AB79A6FD164 /* Foundation.ttf */,
+				4AE798F426FC428996742945 /* Ionicons.ttf */,
+				74104CBD761A464BA53BD70F /* MaterialCommunityIcons.ttf */,
+				7D3EDE1133D6416C99920D39 /* MaterialIcons.ttf */,
+				C6CF4F2841AE40E291BB58F5 /* Octicons.ttf */,
+				8793DE1940C940E191205971 /* SimpleLineIcons.ttf */,
+				0667076E922148DDAF1DADB2 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ConfidantHealthMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfidantHealthMobile" */;
+			buildPhases = (
+				0A0DCD27E744F73669B37CE0 /* [CP] Check Pods Manifest.lock */,
+				558C8E93234DE78D00EB37C6 /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				5561A46B2350C66200C2BED6 /* Embed App Extensions */,
+				49AB4747E151D46992AAEE2E /* [CP] Copy Pods Resources */,
+				50618BF726A7A860483C6A28 /* [CP] Embed Pods Frameworks */,
+				0EF29BCB5A927AD44C042546 /* [CP-User] [instabug-reactnative] Upload Sourcemap */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5561A4692350C66200C2BED6 /* PBXTargetDependency */,
+			);
+			name = ConfidantHealthMobile;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* Confidant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* ConfidantHealthMobile-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ConfidantHealthMobile-tvOS" */;
+			buildPhases = (
+				2AF06AAE365A59B8355197F3 /* [CP] Check Pods Manifest.lock */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConfidantHealthMobile-tvOS";
+			productName = "ConfidantHealthMobile-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ConfidantHealthMobile-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5561A4612350C66200C2BED6 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5561A46E2350C66200C2BED6 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				C43653FC85A8C9E780163960 /* [CP] Check Pods Manifest.lock */,
+				5561A45E2350C66200C2BED6 /* Sources */,
+				5561A45F2350C66200C2BED6 /* Frameworks */,
+				5561A4602350C66200C2BED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 5561A4622350C66200C2BED6 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 67THC83KW2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KTURXC6699;
+						ProvisioningStyle = Automatic;
+					};
+					5561A4612350C66200C2BED6 = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = 67THC83KW2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfidantHealthMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ConfidantHealthMobile */,
+				2D02E47A1E0B4A5D006451C7 /* ConfidantHealthMobile-tvOS */,
+				5561A4612350C66200C2BED6 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56CA4BD2720486200270FC4 /* assets in Resources */,
+				E23AA7342507783000FF486F /* ConfidantHealthMobile.entitlements in Resources */,
+				B3BE618F2692FB2B00E606D7 /* SourceSerifPro-Black.ttf in Resources */,
+				B3BE619C2692FB2B00E606D7 /* Manrope-Light.ttf in Resources */,
+				B3BE61972692FB2B00E606D7 /* SourceSerifPro-SemiBold.ttf in Resources */,
+				5527681522F9B0C100123A97 /* RobotoBold.ttf in Resources */,
+				5527681622F9B0C100123A97 /* RobotoItalic.ttf in Resources */,
+				B3BE61862692FB2B00E606D7 /* ManropeRegular.ttf in Resources */,
+				B3BE61942692FB2B00E606D7 /* Manrope-ExtraLight.ttf in Resources */,
+				B3BE617F2692FB2B00E606D7 /* SourceSerifProBlack.ttf in Resources */,
+				55DEBC92229546E300DC07A1 /* OpenSansRegular.ttf in Resources */,
+				55DEBC90229546D300DC07A1 /* RobotoRegular.ttf in Resources */,
+				55D7D2BA232BA0A20014A65F /* LaunchBoard.storyboard in Resources */,
+				B3BE617C2692FB2B00E606D7 /* ManropeExtraBold.ttf in Resources */,
+				E2D2EB75256E27840088B55A /* main.jsbundle in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B3BE618E2692FB2B00E606D7 /* SourceSerifProLight.ttf in Resources */,
+				B3BE619D2692FB2B00E606D7 /* ManropeMedium.ttf in Resources */,
+				B3BE617E2692FB2B00E606D7 /* ManropeBold.ttf in Resources */,
+				B3BE61922692FB2B00E606D7 /* SourceSerifProSemiBold.ttf in Resources */,
+				B3BE61812692FB2B00E606D7 /* SourceSerifProRegular.ttf in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B3BE61962692FB2B00E606D7 /* ManropeExtraLight.ttf in Resources */,
+				2DBD34B9ED9F4918A29D1D10 /* SFProTextRegular.ttf in Resources */,
+				B3BE618B2692FB2B00E606D7 /* ManropeLight.ttf in Resources */,
+				B3BE619A2692FB2B00E606D7 /* RobotoBoldItalic.ttf in Resources */,
+				B3BE61802692FB2B00E606D7 /* SourceSerifProBold.ttf in Resources */,
+				B3BE61952692FB2B00E606D7 /* SourceSerifProExtraLight.ttf in Resources */,
+				B3BE61902692FB2B00E606D7 /* Manrope-ExtraBold.ttf in Resources */,
+				B3BE618C2692FB2B00E606D7 /* ManropeSemiBold.ttf in Resources */,
+				6F66D7BFBF6F4FC6B26F9ABD /* SFUITextRegular.ttf in Resources */,
+				B3BE61932692FB2B00E606D7 /* TitilliumWebRegular.ttf in Resources */,
+				55D7D2BE232F6B460014A65F /* circle_animation.json in Resources */,
+				55A26663232A7091005F96B5 /* GoogleService-Info.plist in Resources */,
+				B3BE61982692FB2B00E606D7 /* Manrope-SemiBold.ttf in Resources */,
+				B3BE619B2692FB2B00E606D7 /* SourceSerifPro-Bold.ttf in Resources */,
+				B3BE61882692FB2B00E606D7 /* Manrope-Bold.ttf in Resources */,
+				252175E1A2394ACC85EADDD1 /* TitilliumWebLight.ttf in Resources */,
+				EAF461C99F9D434982D7A1BF /* Manrope-Medium.ttf in Resources */,
+				93B51E0446204BBF866B5B86 /* Manrope-Regular.ttf in Resources */,
+				868A9F2A72484E71900C0D16 /* SourceSerifPro-ExtraLight.ttf in Resources */,
+				2E8A2E62EC534863A4569CEF /* SourceSerifPro-Light.ttf in Resources */,
+				084D63460A8E4AE6B37326EC /* SourceSerifPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5561A4602350C66200C2BED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		0A0DCD27E744F73669B37CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConfidantHealthMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EF29BCB5A927AD44C042546 /* [CP-User] [instabug-reactnative] Upload Sourcemap */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [instabug-reactnative] Upload Sourcemap";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"../node_modules/instabug-reactnative/ios/upload_sourcemap.sh\"";
+		};
+		2AF06AAE365A59B8355197F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConfidantHealthMobile-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		49AB4747E151D46992AAEE2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthMobile/Pods-ConfidantHealthMobile-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthMobile/Pods-ConfidantHealthMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50618BF726A7A860483C6A28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthMobile/Pods-ConfidantHealthMobile-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RNInstabug/Instabug.framework/Instabug",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instabug.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfidantHealthMobile/Pods-ConfidantHealthMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558C8E93234DE78D00EB37C6 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\nif nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\nif ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\necho \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\nexit 2\nfi\nelse\nopen \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\nfi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C43653FC85A8C9E780163960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D7D25E232B95530014A65F /* LauchViewController.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5561A45E2350C66200C2BED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5561A4662350C66200C2BED6 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5561A4692350C66200C2BED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5561A4612350C66200C2BED6 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 5561A4682350C66200C2BED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ConfidantHealthMobile;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD1BDC991F79C6BFB3AE2C5 /* Pods-ConfidantHealthMobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ConfidantHealthMobile/ConfidantHealthMobile.entitlements;
+				CURRENT_PROJECT_VERSION = 7;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..",
+					node_modules,
+					"react-native-linear-gradientBVLinearGradient",
+					"$(SRCROOT)..",
+					"node_modules@react-native-community\async-storageios",
+					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)..",
+					node_modules,
+					"react-native-fetch-blobios/**",
+					"$(SRCROOT)..",
+					node_modules,
+					"$(SRCROOT)/../node_modules",
+					"react-native-videoios/**",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios/**",
+					"$(SRCROOT)/../node_modules/opentok-react-native/ios/OpenTokReactNative/**",
+					"$(SRCROOT)/../node_modules/opentok-react-native/ios/OpenTokReactNative/Utils",
+				);
+				INFOPLIST_FILE = ConfidantHealthMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ConfidantHealthMobile\"",
+				);
+				MARKETING_VERSION = 2.2.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant;
+				PRODUCT_NAME = Confidant;
+				SWIFT_OBJC_BRIDGING_HEADER = "ConfidantHealthMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841931C1E5CE9E4757A970E4 /* Pods-ConfidantHealthMobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ConfidantHealthMobile/ConfidantHealthMobile.entitlements;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..",
+					node_modules,
+					"react-native-linear-gradientBVLinearGradient",
+					"$(SRCROOT)..",
+					"node_modules@react-native-community\async-storageios",
+					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)..",
+					node_modules,
+					"react-native-fetch-blobios/**",
+					"$(SRCROOT)..",
+					node_modules,
+					"react-native-videoios/**",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios/**",
+					"$(SRCROOT)/../node_modules/opentok-react-native/ios/OpenTokReactNative/**",
+				);
+				INFOPLIST_FILE = ConfidantHealthMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ConfidantHealthMobile\"",
+				);
+				MARKETING_VERSION = 2.2.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant;
+				PRODUCT_NAME = Confidant;
+				SWIFT_OBJC_BRIDGING_HEADER = "ConfidantHealthMobile-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA9918A69EDFE332A496C1F /* Pods-ConfidantHealthMobile-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KTURXC6699;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..",
+					ode_modules,
+					"eact-native-linear-gradientBVLinearGradient",
+					"$(SRCROOT)..",
+					"ode_modules@react-native-community\async-storageios",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)..",
+					ode_modules,
+					"eact-native-fetch-blobios/**",
+					"$(SRCROOT)..",
+					ode_modules,
+					"eact-native-videoios/**",
+					"$(SRCROOT)/../node_modules/opentok-react-native/ios/OpenTokReactNative",
+				);
+				INFOPLIST_FILE = "ConfidantHealthMobile-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				MARKETING_VERSION = 2.2.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ConfidantHealthMobile-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B554A90AACB8D2546B15FBC4 /* Pods-ConfidantHealthMobile-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KTURXC6699;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..",
+					ode_modules,
+					"eact-native-linear-gradientBVLinearGradient",
+					"$(SRCROOT)..",
+					"ode_modules@react-native-community\async-storageios",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)..",
+					ode_modules,
+					"eact-native-fetch-blobios/**",
+					"$(SRCROOT)..",
+					ode_modules,
+					"eact-native-videoios/**",
+					"$(SRCROOT)/../node_modules/opentok-react-native/ios/OpenTokReactNative",
+				);
+				INFOPLIST_FILE = "ConfidantHealthMobile-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				MARKETING_VERSION = 2.2.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ConfidantHealthMobile-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		5561A46C2350C66200C2BED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2034C328C05AC44DB16193 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.2.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5561A46D2350C66200C2BED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14925814ED6B9C2FFBABB5DB /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 67THC83KW2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.2.3;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = live.safeopioidusecoalition.confidant.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29715672775CD1A00FE0A11 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29715672775CD1A00FE0A11 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfidantHealthMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ConfidantHealthMobile-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5561A46E2350C66200C2BED6 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5561A46C2350C66200C2BED6 /* Debug */,
+				5561A46D2350C66200C2BED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfidantHealthMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
